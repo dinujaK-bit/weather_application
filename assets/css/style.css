@@ -1,0 +1,54 @@
+@font-face {
+    font-family: italiano;
+    src: url(/assets/fonts/Mangekyo\ Display.otf);
+}
+
+
+
+
+
+
+
+
+.main_header_div {
+    background-color: #1a324b;
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+}
+
+.header_left_side {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 50%;
+    font-family: italiano;
+}
+
+.header_left_side img {
+    width: 60px;
+    height: auto;
+
+}
+
+.page_title {
+    font-size: 30px;
+    color: #dee2e6;
+    margin: 0;
+}
+
+.header_right_side {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center
+}
+
+.header_right_side input {
+    cursor: text;
+    border-radius: 0.2rem;
+    border: none;
+    padding: 5px 10px;
+    background-color: #dee2e6;
+    outline: none;
+}
